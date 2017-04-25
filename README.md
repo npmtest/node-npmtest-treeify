@@ -1,6 +1,6 @@
 # npmtest-treeify
 
-#### basic test coverage for  treeify (v1.0.1)  [![npm package](https://img.shields.io/npm/v/npmtest-treeify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-treeify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-treeify.svg)](https://travis-ci.org/npmtest/node-npmtest-treeify)
+#### basic test coverage for  [treeify (v1.0.1)](https://github.com/notatestuser/treeify#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-treeify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-treeify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-treeify.svg)](https://travis-ci.org/npmtest/node-npmtest-treeify)
 
 #### converts a JS object into a nice and readable tree structure for the console
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-treeify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-treeify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-treeify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-treeify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-treeify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-treeify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-treeify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-treeify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-treeify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-treeify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-treeify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-treeify/build/coverage.html/index.html)
 
@@ -35,18 +35,26 @@
 ```json
 
 {
-    "name": "treeify",
-    "version": "1.0.1",
-    "author": "Luke Plaster <notatestuser@gmail.com>",
+    "author": {
+        "name": "Luke Plaster"
+    },
+    "bugs": {
+        "url": "https://github.com/notatestuser/treeify/issues"
+    },
+    "dependencies": {},
     "description": "converts a JS object into a nice and readable tree structure for the console",
-    "scripts": {
-        "test": "./node_modules/vows/bin/vows --spec"
+    "devDependencies": {
+        "vows": "git://github.com/Filirom1/vows.git#expect"
     },
-    "main": "./treeify",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/notatestuser/treeify.git"
+    "directories": {},
+    "dist": {
+        "shasum": "69b3cd022022a168424e7cfa1ced44c939d3eb2f",
+        "tarball": "https://registry.npmjs.org/treeify/-/treeify-1.0.1.tgz"
     },
+    "engines": {
+        "node": ">=0.6"
+    },
+    "homepage": "https://github.com/notatestuser/treeify#readme",
     "keywords": [
         "object",
         "tree",
@@ -54,18 +62,30 @@
         "console",
         "pretty"
     ],
-    "devDependencies": {
-        "vows": "git://github.com/Filirom1/vows.git#expect"
-    },
     "licenses": [
         {
             "type": "MIT",
             "url": "http://lp.mit-license.org/"
         }
     ],
-    "engines": {
-        "node": ">=0.6"
-    }
+    "main": "./treeify",
+    "maintainers": [
+        {
+            "name": "notatestuser"
+        }
+    ],
+    "name": "treeify",
+    "optionalDependencies": {},
+    "readmeFilename": "README.md",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/notatestuser/treeify.git"
+    },
+    "scripts": {
+        "test": "./node_modules/vows/bin/vows --spec"
+    },
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
